@@ -1,0 +1,136 @@
+.department-card {
+  background: #f3e8e8;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.department-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.department-card h3 {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  color: #555;
+}
+
+.department-card p,
+.department-card ul {
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.department-card ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.department-card li {
+  margin: 5px 0;
+  color: #444;
+}
+
+.department-card select,
+.department-card button {
+  padding: 10px;
+  font-size: 1rem;
+  margin-top: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 200px;
+  box-sizing: border-box;
+}
+
+.department-card button {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.department-card button:hover {
+  background-color: #45a049;
+}
+
+.department-list {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 10px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.department-list h2 {
+  font-size: 1.6rem;
+  color: #333;
+}
+
+.department-list ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.department-list li {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #444;
+}
+
+.department-list button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.department-list button:hover {
+  background-color: #d32f2f;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 1rem;
+  margin-top: 10px;
+  width: 100%;
+  max-width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+nav button {
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 4px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+nav button:hover {
+  background-color: #007B9A;
+}
+
+.error {
+  color: #d32f2f;
+  font-weight: bold;
+}
